@@ -69,7 +69,7 @@ function SmartnodeSetup() {
             adduser username sudo<br/>
             su username</p></div>
             <p>Get Yerbas wallet and daemon:</p>
-            <div><p class="container4">
+            <div><p class="container3">
             wget https://github.com/The-Yerbas-Endeavor/yerbas/releases/download/v2.1.1.4/yerbas-ubuntu20-2.1.1.4.tar.gz<br/>
             tar -xf yerbas-ubuntu20-2.1.1.4.tar.gz<br/>
             mkdir ~/.yerbascore && touch ~/.yerbascore/yerbas.conf<br/>
@@ -95,7 +95,7 @@ function SmartnodeSetup() {
 
           <h4>6. Build protx command for control wallet</h4>
               <p>An example protx quick_setup command</p>
-              <div><p class="container5"> protx quick_setup d7898f44c6bdc39a49b0917d5c6bcb61455270ddb9e7eb1168a6b745434daf26 1 194.113.73.87:15420 yaDfcdCupB1T5YoVRjYr8fXCvB8U5AuNX8
+              <div><p class="container3"> protx quick_setup d7898f44c6bdc39a49b0917d5c6bcb61455270ddb9e7eb1168a6b745434daf26 1 194.113.73.87:15420 yaDfcdCupB1T5YoVRjYr8fXCvB8U5AuNX8
                </p></div>  
             <h5>The structure from left to right is:</h5>
             <ul>
