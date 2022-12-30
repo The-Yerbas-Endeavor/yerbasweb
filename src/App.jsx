@@ -96,7 +96,7 @@ export default function App() {
                         className="text-primary"
                         icon={faWallet}
                       />
-                    </div>{" "}
+                    </div>
                     Get Wallet
                   </NavDropdown.Item>
                   <NavDropdown.Header>Live Charts</NavDropdown.Header>
@@ -114,7 +114,7 @@ export default function App() {
                       href="https://coinpaprika.com/coin/yerb-yerbas/"
                     >  
                       <img alt="" src={CoinPaprikaLogo} />
-                    </NavDropdown.Item>}
+                    </NavDropdown.Item>
                     <NavDropdown.Item
                       target="_blank"
                       rel="nofollow noopener noreferrer"
