@@ -34,6 +34,8 @@ import AltbustersLogo from "./assets/img/AltbustersLogo.png";
 import CoinPaprikaLogo from "./assets/img/coinpaprika.png";
 import YerbasLogo from "./assets/img/yerbas.png";
 import ExbitronLogo from "./assets/img/exbitron.png";
+import PancakeSwap from "./assets/img/pancakeswap.png";
+import PooCoinLogo from "./assets/img/poocoin.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHammer,
@@ -102,6 +104,13 @@ export default function App() {
                     <NavDropdown.Item
                       target="_blank"
                       rel="nofollow noopener noreferrer"
+                      href="https://poocoin.app/tokens/0x2100591c0b692c53a0E11cc328646309e6ea12eF"
+                    >
+                      <img alt="" src={PooCoinLogo} />
+                    </NavDropdown.Item>
+                    <NavDropdown.Item
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
                       href="https://coinpaprika.com/coin/yerb-yerbas/"
                     >  
                       <img alt="" src={CoinPaprikaLogo} />
@@ -129,7 +138,15 @@ export default function App() {
                   </NavDropdown.Item>
                    </div>
                  <NavDropdown.Header>Exchanges</NavDropdown.Header>
+                  
                   <div className="d-flex flex-wrap navbar-panel justify-content-center">
+                    <NavDropdown.Item
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                      href="https://pancakeswap.finance/swap?outputCurrency=0x2100591c0b692c53a0E11cc328646309e6ea12eF"
+                    >
+                      <img alt="" src={PancakeSwap} />
+                    </NavDropdown.Item>
                     <NavDropdown.Item
                       target="_blank"
                       rel="nofollow noopener noreferrer"

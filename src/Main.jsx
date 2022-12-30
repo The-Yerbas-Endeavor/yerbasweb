@@ -20,6 +20,8 @@ import NomicsLogo from "./assets/img/NomicsLogo.png";
 import AltbustersLogo from "./assets/img/AltbustersLogo.png";
 import CoinPaprikaLogo from "./assets/img/coinpaprika.png";
 import BitoreumLogo from "./assets/img/BitoreumLogo.png";
+import PancakeSwap from "./assets/img/pancakeswap.png";
+import PooCoinLogo from "./assets/img/poocoin.png";
 import YerbasAnimatedLogo from "./assets/img/yerbas-rotate.gif";
 import YerbasCollection1Logo from "./assets/img/yerbascollection1.png";
 import DYerbasLogo from "./assets/img/dyerbas.gif";
@@ -392,6 +394,15 @@ function Main() {
             <a
                 target="_blank"
                 rel="nofollow noopener noreferrer"
+                href="https://pancakeswap.finance/swap?outputCurrency=0x2100591c0b692c53a0E11cc328646309e6ea12eF"
+              >
+                <Button variant="outline">
+                  <img alt="" src={PancakeSwap} />
+                </Button>
+              </a>
+            <a
+                target="_blank"
+                rel="nofollow noopener noreferrer"
                 href="https://www.exbitron.com/trading/yerbasusdt"
               >
                 <Button variant="outline">
@@ -450,6 +461,15 @@ function Main() {
               >
                 <Button variant="outline">
                   <img alt="" src={AltbustersLogo} />
+                </Button>
+              </a>
+              <a
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                href="https://poocoin.app/tokens/0x2100591c0b692c53a0E11cc328646309e6ea12eF"
+              >
+                <Button variant="outline">
+                  <img alt="" src={PooCoinLogo} />
                 </Button>
               </a>
             </Row>
