@@ -81,10 +81,10 @@ function Wallets() {
             </Button>
           </a>
         </div>
-        <h2>Papper</h2>
+        <h2>Paper</h2>
         <div className="d-flex flex-row flex-wrap justify-content-lg-start justify-content-center">
           <a
-            href="\public\papetwallet.html"
+            href="\papetwallet.html"
             rel="noreferrer"
             target="_blank"
           >
@@ -96,7 +96,7 @@ function Wallets() {
             </Button>
           </a>
           <a
-            href="https://yerbas.org/yerbvanity.html"
+            href="https://yerbas.org/vanity-yerb/index.html"
             rel="noreferrer"
             target="_blank"
           >

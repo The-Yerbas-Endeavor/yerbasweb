@@ -143,7 +143,7 @@ export default function App() {
                     <NavDropdown.Item
                       target="_blank"
                       rel="nofollow noopener noreferrer"
-                      href="https://pancakeswap.finance/swap?outputCurrency=0x2100591c0b692c53a0E11cc328646309e6ea12eF"
+                      href="https://pancakeswap.finance/swap?outputCurrency=0x2100591c0b692c53a0E11cc328646309e6ea12eF&inputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
                     >
                       <img alt="" src={PancakeSwap} />
                     </NavDropdown.Item>
@@ -248,7 +248,7 @@ export default function App() {
                     </div>{" "}
                     Explorer (Official; API)
                   </NavDropdown.Item>
-                  <NavDropdown.Item
+    {/**               <NavDropdown.Item
                     target="_blank"
                     rel="nofollow noopener noreferrer"
                     href="https://openchains.info/coin/yerbas/blocks"
@@ -257,7 +257,7 @@ export default function App() {
                       <FontAwesomeIcon icon={faMicroscope} />
                     </div>{" "}
                     Explorer (Open Chains)
-                  </NavDropdown.Item>
+                  </NavDropdown.Item>  */}
                   <NavDropdown.Item
                     target="_blank"
                     rel="nofollow noopener noreferrer"

@@ -393,8 +393,8 @@ function Main() {
             <Row className="justify-content-center">
             <a
                 target="_blank"
-                rel="nofollow noopener noreferrer"
-                href="https://pancakeswap.finance/swap?outputCurrency=0x2100591c0b692c53a0E11cc328646309e6ea12eF"
+                rel="nofollow noopener noreferrer"F
+                href="https://pancakeswap.finance/swap?outputCurrency=0x2100591c0b692c53a0E11cc328646309e6ea12eF&inputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
               >
                 <Button variant="outline">
                   <img alt="" src={PancakeSwap} />
